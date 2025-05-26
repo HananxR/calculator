@@ -1,6 +1,8 @@
-# Python 项目文档示例（基于 MkDocs）
+# Python 项目文档示例（基于 mkdocs）
 
-本项目演示了如何使用 [MkDocs](https://www.mkdocs.org/) 构建 Python 项目的文档站点，参考自教程：[Build Python Project Documentation With MkDocs](https://realpython.com/python-project-documentation-with-mkdocs/)。
+本项目演示了如何使用 [mkdocs](https://www.mkdocs.org/) 构建 Python 项目的文档站点，参考自教程：[Build Python Project Documentation With MkDocs](https://realpython.com/python-project-documentation-with-mkdocs/)。
+
+![image-20250526170210829](https://s2.loli.net/2025/05/26/W16inUea4yVlYGx.png)
 
 ## 功能介绍
 
@@ -91,7 +93,7 @@ mkdocs gh-deploy
 GitHub Pages 页面地址示例：
 
 ```
-https://<your-username>.github.io/<your-repo>/
+https://hananxr.github.io/calculator/
 ```
 
 ## 常用命令
@@ -105,5 +107,5 @@ https://<your-username>.github.io/<your-repo>/
 
 ## 教程参考
 
-- [MkDocs 官方文档](https://www.mkdocs.org/)  
+- [MkDocs 官方文档](https://www.mkdocs.org/)
 - [Real Python 教程](https://realpython.com/python-project-documentation-with-mkdocs)
