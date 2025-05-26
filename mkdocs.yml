@@ -1,11 +1,13 @@
 # mkdocs.yml
 site_name: Calculation Docs
+site_url: https://hananxr.github.io/calculator/
 
 theme:
   name: "material"
 
 plugins:
   - mkdocstrings
+
 
 nav:
   - Calculation Docs: index.md

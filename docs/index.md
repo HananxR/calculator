@@ -1,3 +1,7 @@
+> **Please note: This is an example of creating a project based on mkdocs, not a real project**
+[reference resources:Build Your Python Project Documentation With MkDocs]( https://realpython.com/python-project-documentation-with-mkdocs/)
+
+
 This site contains the project documentation for the
 `calculator` project that is a toy module used in the
 Real Python tutorial
@@ -24,6 +28,7 @@ your use case by looking at the different pages.
 
 ## Project Overview
 
+::: calculator
 
 
 ## Acknowledgements
