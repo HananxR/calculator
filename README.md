@@ -90,11 +90,7 @@ mkdocs gh-deploy
 
 执行后将自动推送 `site/` 内容到远程仓库的 `gh-pages` 分支。
 
-GitHub Pages 页面地址示例：
-
-```
-https://hananxr.github.io/calculator/
-```
+[GitHub Pages 页面地址示例：](https://hananxr.github.io/calculator/)https://hananxr.github.io/calculator/
 
 ## 常用命令
 
