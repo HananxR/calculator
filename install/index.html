@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://hananxr.github.io/calculator/tutorials/">
+        <link rel="canonical" href="https://hananxr.github.io/calculator/install/">
       
       
-        <link rel="prev" href="../install/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../how-to-guides/">
+        <link rel="next" href="../tutorials/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Tutorials - calculator-learn</title>
+        <title>Install - calculator-learn</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#installation-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Tutorials
+              Install
             
           </span>
         </div>
@@ -177,28 +177,6 @@
       
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../install/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Install
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
     
   
   
@@ -208,13 +186,15 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
   
   <span class="md-ellipsis">
-    Tutorials
+    Install
     
   </span>
   
@@ -227,7 +207,7 @@
   
   
   <span class="md-ellipsis">
-    Tutorials
+    Install
     
   </span>
   
@@ -240,6 +220,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -248,46 +230,97 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#installation-guide-mkdocs-and-plugins" class="md-nav__link">
     <span class="md-ellipsis">
-      安装与使用
+      📦 Installation Guide: MkDocs and Plugins
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="安装与使用">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧰 Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Installation Steps
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Installation Steps">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#0mkdocs" class="md-nav__link">
+  <a href="#1-install-mkdocs" class="md-nav__link">
     <span class="md-ellipsis">
-      0.mkdocs相关库安装
+      1. Install MkDocs
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
+  <a href="#2-install-mkdocstrings-plugin-with-python-support" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 克隆项目
+      2. Install mkdocstrings Plugin (with Python support)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
+  <a href="#supported-docstring-styles-with-examples" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 安装依赖
+      ✅ Supported Docstring Styles (with Examples)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="✅ Supported Docstring Styles (with Examples)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-google-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      📘 1. Google Style
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
+  <a href="#2-numpy-style" class="md-nav__link">
     <span class="md-ellipsis">
-      3. 启动本地服务预览文档
+      📗 2. NumPy Style
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-restructuredtext-rest-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      📙 3. reStructuredText (reST) Style
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-install-the-material-theme" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Install the Material Theme
     </span>
   </a>
   
@@ -299,143 +332,20 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#done" class="md-nav__link">
     <span class="md-ellipsis">
-      项目结构
+      ✅ Done!
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#mkdocstrings-api" class="md-nav__link">
+  <a href="#resources" class="md-nav__link">
     <span class="md-ellipsis">
-      使用 mkdocstrings 自动生成 API 文档
+      📚 Resources
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="使用 mkdocstrings 自动生成 API 文档">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      📌 基本原理
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      📁 示例模块结构
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📁 示例模块结构">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      ✏️ 示例函数注释：
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      ⚙️ 操作步骤
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="⚙️ 操作步骤">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      1️⃣ 安装插件
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-mkdocsyml" class="md-nav__link">
-    <span class="md-ellipsis">
-      2️⃣ 配置 mkdocs.yml
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-markdown" class="md-nav__link">
-    <span class="md-ellipsis">
-      3️⃣ 编辑 Markdown 文件
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    <span class="md-ellipsis">
-      💡 进阶使用技巧
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    <span class="md-ellipsis">
-      构建与部署
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="构建与部署">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
-    <span class="md-ellipsis">
-      本地构建静态站点
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#github-pages" class="md-nav__link">
-    <span class="md-ellipsis">
-      部署到 GitHub Pages
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -443,6 +353,28 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutorials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tutorials
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -530,6 +462,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -538,46 +472,97 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#installation-guide-mkdocs-and-plugins" class="md-nav__link">
     <span class="md-ellipsis">
-      安装与使用
+      📦 Installation Guide: MkDocs and Plugins
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="安装与使用">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧰 Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Installation Steps
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Installation Steps">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#0mkdocs" class="md-nav__link">
+  <a href="#1-install-mkdocs" class="md-nav__link">
     <span class="md-ellipsis">
-      0.mkdocs相关库安装
+      1. Install MkDocs
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
+  <a href="#2-install-mkdocstrings-plugin-with-python-support" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 克隆项目
+      2. Install mkdocstrings Plugin (with Python support)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
+  <a href="#supported-docstring-styles-with-examples" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 安装依赖
+      ✅ Supported Docstring Styles (with Examples)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="✅ Supported Docstring Styles (with Examples)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-google-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      📘 1. Google Style
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
+  <a href="#2-numpy-style" class="md-nav__link">
     <span class="md-ellipsis">
-      3. 启动本地服务预览文档
+      📗 2. NumPy Style
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-restructuredtext-rest-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      📙 3. reStructuredText (reST) Style
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-install-the-material-theme" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Install the Material Theme
     </span>
   </a>
   
@@ -589,143 +574,20 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#done" class="md-nav__link">
     <span class="md-ellipsis">
-      项目结构
+      ✅ Done!
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#mkdocstrings-api" class="md-nav__link">
+  <a href="#resources" class="md-nav__link">
     <span class="md-ellipsis">
-      使用 mkdocstrings 自动生成 API 文档
+      📚 Resources
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="使用 mkdocstrings 自动生成 API 文档">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      📌 基本原理
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      📁 示例模块结构
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📁 示例模块结构">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      ✏️ 示例函数注释：
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      ⚙️ 操作步骤
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="⚙️ 操作步骤">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      1️⃣ 安装插件
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-mkdocsyml" class="md-nav__link">
-    <span class="md-ellipsis">
-      2️⃣ 配置 mkdocs.yml
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-markdown" class="md-nav__link">
-    <span class="md-ellipsis">
-      3️⃣ 编辑 Markdown 文件
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    <span class="md-ellipsis">
-      💡 进阶使用技巧
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    <span class="md-ellipsis">
-      构建与部署
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="构建与部署">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
-    <span class="md-ellipsis">
-      本地构建静态站点
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#github-pages" class="md-nav__link">
-    <span class="md-ellipsis">
-      部署到 GitHub Pages
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -745,142 +607,106 @@
 
 
 
-  <h1>Tutorials</h1>
-
-<p>This part of the project documentation focuses on a
-<strong>learning-oriented</strong> approach. You'll learn how to
-get started with the code in this project.</p>
 <blockquote>
-<p><strong>Note:</strong> Expand this section by considering the
-following points:</p>
+<p><strong>This part of the content comes from <code>install.md</code></strong></p>
 </blockquote>
-<ul>
-<li>Help newcomers with getting started</li>
-<li>Teach readers about your library by making them
-    write code</li>
-<li>Inspire confidence through examples that work for
-    everyone, repeatably</li>
-<li>Give readers an immediate sense of achievement</li>
-<li>Show concrete examples, no abstractions</li>
-<li>Provide the minimum necessary explanation</li>
-<li>Avoid any distractions</li>
-</ul>
 <hr />
-<h2 id="_1">安装与使用</h2>
-<h3 id="0mkdocs">0.mkdocs相关库安装</h3>
-<pre><code class="language-cmd">python -m pip install mkdocs
-python -m pip install &quot;mkdocstrings[python]&quot;
-python -m pip install mkdocs-material
+<h1 id="installation-guide">Installation Guide</h1>
+<h2 id="installation-guide-mkdocs-and-plugins">📦 Installation Guide: MkDocs and Plugins</h2>
+<p>This guide will help you install <strong>MkDocs</strong> and essential plugins to generate beautiful documentation directly from your Python code.</p>
+<hr />
+<h2 id="prerequisites">🧰 Prerequisites</h2>
+<p>Make sure you have Python (version 3.7 or above) and <code>pip</code> installed:</p>
+<pre><code class="language-bash">python --version
+pip --version
 </code></pre>
-<h3 id="1">1. 克隆项目</h3>
-<pre><code class="language-bash">git clone https://github.com/HananxR/calculator.git
-cd &lt;your-repo&gt;
+<hr />
+<h2 id="installation-steps">🚀 Installation Steps</h2>
+<h3 id="1-install-mkdocs">1. Install MkDocs</h3>
+<pre><code class="language-bash">python -m pip install mkdocs
 </code></pre>
-<h3 id="2">2. 安装依赖</h3>
-<p>建议创建虚拟环境：</p>
-<pre><code class="language-bash">python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
+<p>Check it's working:</p>
+<pre><code class="language-bash">mkdocs --version
 </code></pre>
-<h3 id="3">3. 启动本地服务预览文档</h3>
+<hr />
+<h3 id="2-install-mkdocstrings-plugin-with-python-support">2. Install <code>mkdocstrings</code> Plugin (with Python support)</h3>
+<pre><code class="language-bash">python -m pip install &quot;mkdocstrings[python]&quot;
+</code></pre>
+<p>This plugin <strong>auto-generates documentation</strong> from Python source files and supports several popular docstring styles:</p>
+<hr />
+<h3 id="supported-docstring-styles-with-examples">✅ Supported Docstring Styles (with Examples)</h3>
+<h4 id="1-google-style">📘 1. Google Style</h4>
+<pre><code class="language-python">def add(x: int, y: int) -&gt; int:
+    &quot;&quot;&quot;Add two integers.
+
+    Args:
+        x (int): First number.
+        y (int): Second number.
+
+    Returns:
+        int: The sum of x and y.
+    &quot;&quot;&quot;
+    return x + y
+</code></pre>
+<hr />
+<h4 id="2-numpy-style">📗 2. NumPy Style</h4>
+<pre><code class="language-python">def add(x: int, y: int) -&gt; int:
+    &quot;&quot;&quot;
+    Add two integers.
+
+    Parameters
+    ----------
+    x : int
+        First number.
+    y : int
+        Second number.
+
+    Returns
+    -------
+    int
+        The sum of x and y.
+    &quot;&quot;&quot;
+    return x + y
+</code></pre>
+<hr />
+<h4 id="3-restructuredtext-rest-style">📙 3. reStructuredText (reST) Style</h4>
+<pre><code class="language-python">def add(x: int, y: int) -&gt; int:
+    &quot;&quot;&quot;
+    Add two integers.
+
+    :param x: First number.
+    :type x: int
+    :param y: Second number.
+    :type y: int
+    :return: The sum of x and y.
+    :rtype: int
+    &quot;&quot;&quot;
+    return x + y
+</code></pre>
+<p>These formats are all rendered cleanly when using <code>mkdocstrings</code>.</p>
+<hr />
+<h3 id="3-install-the-material-theme">3. Install the Material Theme</h3>
+<pre><code class="language-bash">python -m pip install mkdocs-material
+</code></pre>
+<p>Enable it in <code>mkdocs.yml</code>:</p>
+<pre><code class="language-yaml">theme:
+  name: material
+</code></pre>
+<hr />
+<h2 id="done">✅ Done!</h2>
+<p>Now run your documentation site locally:</p>
 <pre><code class="language-bash">mkdocs serve
 </code></pre>
-<p>在浏览器中访问 http://127.0.0.1:8000 查看文档。</p>
-<p><img alt="image-20250526165243785" src="https://s2.loli.net/2025/05/26/jD748bO5GPtQiry.png" /></p>
-<h2 id="_2">项目结构</h2>
-<pre><code class="language-text">E:.
-│  mkdocs.yml
-│
-├─calculator
-│      calculations.py
-│      __init__.py
-│
-├─docs
-│      explanation.md
-│      how-to-guides.md
-│      index.md
-│      reference.md
-│      tutorials.md
-</code></pre>
+<p>Visit <a href="http://127.0.0.1:8000">http://127.0.0.1:8000</a> in your browser to preview it.</p>
+<hr />
+<h2 id="resources">📚 Resources</h2>
 <ul>
-<li>calculator：对应的python packaeg;</li>
-<li>docs和<code>mkdocs.yml</code>基于<code>mkdocs new .</code>自动生成；</li>
-<li><code>docs</code>中的其他markdown文件为手动创建</li>
-</ul>
-<p>当然可以，以下是使用中文编写的标准 Markdown 文档，介绍如何基于 <code>mkdocstrings</code> 实现 API 自动文档生成，并结合你的项目结构进行说明：</p>
-<hr />
-<h2 id="mkdocstrings-api">使用 <code>mkdocstrings</code> 自动生成 API 文档</h2>
-<p>本部分介绍如何使用 <a href="https://mkdocstrings.github.io/">mkdocstrings</a> 插件，自动从 Python 源代码中提取并渲染函数和类的文档字符串（docstring），生成清晰易读的 API 参考文档。</p>
-<hr />
-<h3 id="_3">📌 基本原理</h3>
-<p>在 <code>reference.md</code> 文件中看到的文档内容，来自于项目中的 Python 源代码，核心依赖的是 <strong><code>mkdocstrings</code></strong> 插件。</p>
-<p>该插件会自动读取你定义在模块（如 <code>calculator/calculations.py</code>）中的 docstring，按指定格式渲染成 HTML 页面。</p>
-<hr />
-<h3 id="_4">📁 示例模块结构</h3>
-<p>以如下项目结构为例：</p>
-<pre><code>calculator/
-└── calculations.py
-</code></pre>
-<p>在 <code>calculations.py</code> 文件中，需要使用 Google、NumPy 或 reStructuredText 风格书写清晰的函数说明。</p>
-<h4 id="_5">✏️ 示例函数注释：</h4>
-<pre><code class="language-python">def add(a: float, b: float) -&gt; float:
-    &quot;&quot;&quot;
-    两数相加。
-
-    参数:
-        a (float): 第一个数。
-        b (float): 第二个数。
-
-    返回:
-        float: 相加结果。
-    &quot;&quot;&quot;
-    return a + b
-</code></pre>
-<hr />
-<h3 id="_6">⚙️ 操作步骤</h3>
-<h4 id="1_1">1️⃣ 安装插件</h4>
-<p>使用以下命令安装 <code>mkdocstrings</code> 及其 Python 支持模块：</p>
-<pre><code class="language-bash">python -m pip install mkdocstrings[python]
-</code></pre>
-<hr />
-<h4 id="2-mkdocsyml">2️⃣ 配置 <code>mkdocs.yml</code></h4>
-<p>在 <code>mkdocs.yml</code> 中添加如下插件配置：</p>
-<pre><code class="language-yaml">plugins:
-  - mkdocstrings
-</code></pre>
-<p>你也可以在其中自定义 docstring 样式、是否显示源码等选项。</p>
-<hr />
-<h4 id="3-markdown">3️⃣ 编辑 Markdown 文件</h4>
-<p>在文档文件（如 <code>reference.md</code>）中，使用如下语法引用模块内容：</p>
-<pre><code class="language-markdown">::: calculator.calculations
-</code></pre>
-<p>这条指令会自动渲染 <code>calculations.py</code> 中所有带有 docstring 的公共函数和类。</p>
-<hr />
-<h3 id="_7">💡 进阶使用技巧</h3>
-<ul>
-<li>若只想渲染单个函数或类，可使用完整路径：</li>
-</ul>
-<p><code>markdown
-  ::: calculator.calculations.add</code></p>
-<ul>
-<li>
-<p>可在 <code>mkdocs.yml</code> 中详细设置显示私有成员、源码块、继承层级等参数。</p>
-</li>
-<li>
-<p>构建文档时，确保代码模块能被正常导入（建议处于同一虚拟环境中，或使用 <code>PYTHONPATH</code> 指定路径）。</p>
-</li>
+<li><a href="https://www.mkdocs.org/">MkDocs</a></li>
+<li><a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a></li>
+<li><a href="https://mkdocstrings.github.io/">mkdocstrings</a></li>
 </ul>
 <hr />
-<p>这样配置后，执行 <code>mkdocs serve</code> 或 <code>mkdocs build</code>，即可实时或最终生成带有 API 自动文档的网页界面。</p>
-<h2 id="_8">构建与部署</h2>
-<h3 id="_9">本地构建静态站点</h3>
-<pre><code class="language-bash">mkdocs build
-</code></pre>
-<p>生成的静态文件将保存在 <code>site/</code> 目录中。</p>
-<h3 id="github-pages">部署到 GitHub Pages</h3>
-<pre><code class="language-bash">mkdocs gh-deploy
-</code></pre>
-<p>执行后将自动推送 <code>site/</code> 内容到远程仓库的 <code>gh-pages</code> 分支。</p>
+<p>Happy documenting! ✨</p>
 
 
 
