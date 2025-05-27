@@ -1,5 +1,5 @@
 # mkdocs.yml
-site_name: Calculation Docs
+site_name: calculator-learn
 site_url: https://hananxr.github.io/calculator/
 
 theme:
@@ -9,8 +9,9 @@ plugins:
   - mkdocstrings
 
 nav:
-  -  My Calculation Docs: index.md
+  - home-page: index.md
+  - install.md
   - tutorials.md
-  - How-To Guides: how-to-guides.md
+  - How-To-Guides: how-to-guides.md
   - reference.md
   - explanation.md

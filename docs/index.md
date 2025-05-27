@@ -1,6 +1,7 @@
 > **Please note: This is an example of creating a project based on mkdocs, not a real project**
 [reference resources:Build Your Python Project Documentation With MkDocs]( https://realpython.com/python-project-documentation-with-mkdocs/)
 
+> **This part of the content comes from `index.md**
 
 This site contains the project documentation for the
 `calculator` project that is a toy module used in the
@@ -18,8 +19,9 @@ project documentation as described by Daniele Procida
 in the [Diátaxis documentation framework](https://diataxis.fr/)
 and consists of four separate parts:
 
+0. [Install](install.md)
 1. [Tutorials](tutorials.md)
-2. [How-To Guides](how-to-guides.md)
+2. [How-To-Guides](how-to-guides.md)
 3. [Reference](reference.md)
 4. [Explanation](explanation.md)
 
