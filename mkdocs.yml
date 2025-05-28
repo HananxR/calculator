@@ -2,6 +2,19 @@
 site_name: calculator-learn
 site_url: https://hananxr.github.io/calculator/
 
+site_description: >- # 项目描述
+  Welcome to Han's knowledge store. Please note: This is an example of creating a project based on mkdocs, not a real project
+
+
+# 代码仓库信息
+repo_name: HananxR # 仓库名称
+repo_url: https://github.com/HananxR/calculator.git # 仓库地址
+
+# 版权信息
+copyright: Copyright &copy; 2025 ~ now | 🚀 HananxR
+
+
+
 theme:
   name: "material"
 

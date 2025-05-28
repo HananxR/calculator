@@ -1,5 +1,3 @@
-> **Please note: This is an example of creating a project based on mkdocs, not a real project**
-[reference resources:Build Your Python Project Documentation With MkDocs]( https://realpython.com/python-project-documentation-with-mkdocs/)
 
 > **This part of the content comes from `index.md**
 
